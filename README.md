@@ -5,14 +5,27 @@ licenced under the [Creative Commons Attribution Non Commercial Share Alike 4.0]
 We like to invite everyone to participate in the software by [reporting issues](https://github.com/labratry/MetAlign/issues) improving the code with [pull requests](https://github.com/labratry/MetAlign/pulls) 
 and sharing ideas or questions in [the discussions}(https://github.com/labratry/MetAlign/discussions/).
 
+This repository do not contain the binaries, you can download them here at the bottom of the page:
+https://zenodo.org/record/7273832
+
+We are currently working on bring the relevant sources into this repository, so let us know if there is something particulary useful and should be prioritized or just help with the migration!
+
 ## General introduction and personal note from the original author
-Dr. Ir. Arjen Lommen has dedicated the most part of his 37-year scientific work to data analysis. In the second half of the 80’s  he started automating data analysis on an IBM mainframe using APL. After 1990 he taught himself to write programs in C on a SUN Unix machine to be able to process the 3rd dimension in 3D-NMR analysis. With no chemometric experience and only a slight background in IT, this continued into writing programs to extract and align signals from 1D-NMR data. Algorithms were not based on chemometrics, but derived from how a trained person would analyse data visually or by hand. Eventually the NMR software transformed after 1998 into software for low resolution GCMS and then to low resolution LCMS using Microsoft Visual C++ and personal computers. This then went on to automation of low resolution GCGCMS. After 2009 the developments went further towards high-resolution GCMS and LCMS with the emphasis on Orbitrap-MS. Now in 2022 the evolution of this software due to the retirement of Arjen Lommen has come to an end.
-Those who want to pick up on this should read the “Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License” under which the software is available free of charge. They should also realize that the software was not written by an IT-expert or a chemometrics expert, but by someone who taught himself.
-The general way the software was structured was through an interface that runs multiple separate and consecutive programs in a batch format under Windows (compatible at least until Windows 10). All software has been thoroughly debugged, but software is never finished and always needs some update once in a while.
+Dr. Ir. Arjen Lommen has dedicated the most part of his 37-year scientific work to data analysis. In the second half of the 80’s  he started automating data analysis on an IBM mainframe using APL.
+After 1990 he taught himself to write programs in C on a SUN Unix machine to be able to process the 3rd dimension in 3D-NMR analysis. With no chemometric experience and only a slight background in IT,
+this continued into writing programs to extract and align signals from 1D-NMR data. Algorithms were not based on chemometrics, but derived from how a trained person would analyse data visually or by hand.
+Eventually the NMR software transformed after 1998 into software for low resolution GCMS and then to low resolution LCMS using Microsoft Visual C++ and personal computers.
+This then went on to automation of low resolution GCGCMS. After 2009 the developments went further towards high-resolution GCMS and LCMS with the emphasis on Orbitrap-MS.
+Now in 2022 the evolution of this software due to the retirement of Arjen Lommen has come to an end.
+Those who want to pick up on this should read the “Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License” under which the software is available free of charge.
+They should also realize that the software was not written by an IT-expert or a chemometrics expert, but by someone who taught himself.
+The general way the software was structured was through an interface that runs multiple separate and consecutive programs in a batch format under Windows (compatible at least until Windows 10).
+All software has been thoroughly debugged, but software is never finished and always needs some update once in a while.
 
 ### Description and key publications
 The MetAlign suite is now available including source code (Microsoft Visual C++ 2010) under the “Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License”.
-The suite of software was last used internationally for data analysis in the SPECIMEn (Survey on PestiCIde Mixtures in Europe) within HBM4EU (Human Biomonitoring for Europe) [1-3]. Within WFSR it is still actively used for data analysis related to statutory tasks.
+The suite of software was last used internationally for data analysis in the SPECIMEn (Survey on PestiCIde Mixtures in Europe) within HBM4EU (Human Biomonitoring for Europe) [1-3]. 
+Within WFSR it is still actively used for data analysis related to statutory tasks.
 The software (incl Windows Visual C++ source code) shared here comprises:
 1. Metalign : Data preprocessing and alignment [4,5].
 2. HR_MS_search : Ultra-fast searching module for searching large numbers of metAlign-preprocessed data files with templates. It includes software for RT and mass corrections such as performed in the SPECIMEn study. [6-8]
